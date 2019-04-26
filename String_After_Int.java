@@ -5,7 +5,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class sample {
+public class String_After_Int {
 	
     public static void main(String[] args) {
         int i = 4;
@@ -18,10 +18,14 @@ public class sample {
         double b;
         String c;
         /* Read and save an integer, double, and String to your variables.*/
-        c=scan.nextLine();
         a=scan.nextInt();
         b=scan.nextDouble();
-        
+	scan.nextLine();  
+	/*That's because the Scanner.nextInt method does not read the newline character in your input created by hitting "Enter," 
+	and so the call to Scanner.nextLine returns after reading that newline.
+	You will encounter the similar behaviour when you use Scanner.nextLine after Scanner.next() or any Scanner.nextFoo method 
+	(except nextLine itself).*/
+        c=scan.nextLine();
         // Note: If you have trouble reading the entire String, please go back and review the Tutorial closely.
         
         /* Print the sum of both integer variables on a new line. */

@@ -1,7 +1,7 @@
 package array_in_java;
 import java.util.*;
 
-public class sample {
+public class Float_Split {
 
     // Complete the solve function below.
     static void solve(double meal_cost, int tip_percent, int tax_percent) {
@@ -11,7 +11,7 @@ public class sample {
         b=(meal_cost)*(b/100);       
         meal_cost=meal_cost+a+b;
         String c=Double.toString(meal_cost);
-        String[] d=c.split("\\.");
+        String[] d=c.split("\\.");              //Split Float using '.'
         int e;
         if(d[1].charAt(0)=='5'||d[1].charAt(0)=='6'||d[1].charAt(0)=='7'||d[1].charAt(0)=='8'||d[1].charAt(0)=='9')
         {

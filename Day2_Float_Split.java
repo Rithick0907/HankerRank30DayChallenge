@@ -1,7 +1,7 @@
 package array_in_java;
 import java.util.*;
 
-public class Float_Split {
+public class Day2_Float_Split {
 
     // Complete the solve function below.
     static void solve(double meal_cost, int tip_percent, int tax_percent) {

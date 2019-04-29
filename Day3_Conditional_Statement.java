@@ -6,7 +6,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 //Question in Bottom
-public class Conditional_Statement {
+public class Day3_Conditional_Statement {
     private static final Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
         int N = scanner.nextInt();

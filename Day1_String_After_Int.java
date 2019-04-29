@@ -5,7 +5,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class String_After_Int {
+public class Day1_String_After_Int {
 	
     public static void main(String[] args) {
         int i = 4;

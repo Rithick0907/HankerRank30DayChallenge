@@ -12,12 +12,11 @@ class Day8_Map_DataStructure{
             int phone = in.nextInt();
             phonebook.put(name,phone);
         }
-        while(in.hasNext()){
+       while(in.hasNext()){
             String s = in.next();
-            String[] s1=s.split(" ");
-            if(phonebook.containsKey(s1[0]))
+            if(phonebook.containsKey(s))
             {
-                System.out.println(s+"="+phonebook.get(s1[0]));
+                System.out.println(s+"="+phonebook.get(s));
             }
             else
             {

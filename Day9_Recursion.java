@@ -9,13 +9,10 @@ import java.util.regex.*;
 
 public class Day9_Recursion {
     static int factorial(int n) {
-        int i;
-        int fact=1;
-        for(i=1;i<=n;i++)
-        {
-            fact=fact*i;
-        }
-        return fact;
+        if(n<=0)
+        return 1;
+        else
+        return (n*factorial(n-1));
     }
 
     private static final Scanner scanner = new Scanner(System.in);
